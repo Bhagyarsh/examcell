@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/NoticMenuNav"
+        android:title="Notices">
+    </item>
+    <item
+        android:id="@+id/ExamFormMenuNav"
+        android:title="Exam Form">
+    </item>
+    <item
+        android:id="@+id/TransciptionMenuNav"
+        android:title="Apply for Transcrip">
+    </item>
+    <item
+        android:id="@+id/ApplyforeditProfileMenuNav"
+        android:title="Apply for profile Correction">
+    </item>
+    <item
+        android:id="@+id/PaymentReciptMenuNav"
+        android:title="Payment Recipt">
+    </item>
+    <item
+        android:id="@+id/logoutMenuNav"
+        android:title="Logout">
+    </item>
+</menu>

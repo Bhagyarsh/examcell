@@ -20,7 +20,11 @@ from django.conf.urls.static import static
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',include("accounts.urls")),
+     path('',include("notice.urls")),
     path('',include("notice.api.urls")),
+    path('',include("academic.urls")),
+    path('',include("Transcript.urls")),
+    path('',include("examform.urls")),
 ]
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

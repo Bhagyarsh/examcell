@@ -19,6 +19,7 @@ def unique_key_generator(instance):
     if qs_exists:
         return unique_slug_generator(instance)
     return key
+    
 def unique_slug_generator(instance, new_slug=None):
     """
     This is for a Django project and it assumes your instance 
@@ -43,4 +44,5 @@ def unique_slug_generator(instance, new_slug=None):
                     randstr=random_string_generator(size=40)
                 )
         return unique_slug_generator(instance, new_slug=new_slug)
+    print("[=====================================")
     return slug

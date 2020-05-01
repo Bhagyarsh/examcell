@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Examcell</string>
+    <string name="preference_file_key">MAINPASSWORD</string>
+</resources>
